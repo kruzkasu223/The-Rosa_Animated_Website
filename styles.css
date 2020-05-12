@@ -10,6 +10,13 @@
     box-sizing: border-box;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 :root{
     --main-font: 'Source Sans Pro', sans-serif;
     --secondary-font: 'Herr Von Muellerhoff', cursive;
@@ -696,10 +703,5 @@ footer {
    100%{
       opacity: 0;
       transform: translateY(-1rem);
-   }
-}0;
-      transform: translateY(-1rem);
-   }
-}ateY(-1rem);
    }
 }
