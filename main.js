@@ -8,7 +8,7 @@ let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
 
 window.addEventListener('load', function() {
-   document.body.classList.remove('preload');
+   document.body.classList.remove('js-loading');
 });
 
 
