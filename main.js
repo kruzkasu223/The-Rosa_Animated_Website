@@ -1,7 +1,3 @@
-window.addEventListener('load', function() {
-   document.getElementByTagName('body').classList.remove('preload');
-});
-
 //Select element function
 
 const selectElement = function(element) {
@@ -10,6 +6,12 @@ const selectElement = function(element) {
 
 let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
+
+window.addEventListener('load', function() {
+   document.body.classList.remove('preload');
+});
+
+
 
 menuToggler.addEventListener('click', function(){
    body.classList.toggle('open');
