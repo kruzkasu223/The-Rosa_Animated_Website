@@ -1,5 +1,5 @@
 window.addEventListener('load', function() {
-   document.selectElement('body').classList.remove('preload');
+   document.getElementByTagName('body').classList.remove('preload');
 });
 
 //Select element function
